@@ -54,6 +54,26 @@
 								</g></svg
 						></span>
 					</button>
+
+					<div
+						class="modal"
+						id="modal"
+						role="dialog"
+						aria-labelledby="modal-title"
+						aria-hidden="true"
+					>
+						<div class="modal__content" role="document">
+							<button
+								class="modal__close-button"
+								aria-label="Закрыть модальное окно"
+							>
+								&times;
+							</button>
+							<div class="modal__body" id="modal-body">
+								<!-- Динамический контент будет вставляться сюда -->
+							</div>
+						</div>
+					</div>
 				</div>
 				<div class="demo-block__image-container">
 					<img
@@ -64,5 +84,6 @@
 				</div>
 			</section>
 		</div>
+		<script src="./dist/index.js"></script>
 	</body>
 </html>
